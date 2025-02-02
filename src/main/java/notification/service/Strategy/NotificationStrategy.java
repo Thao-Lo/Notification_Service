@@ -1,5 +1,5 @@
 package notification.service.Strategy;
 
-public class NotificationStrategy {
-
+public interface NotificationStrategy {
+	void sendNotification(String recipient, String content);
 }
